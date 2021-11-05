@@ -36,3 +36,87 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  color: white;
+  width: 90%;
+  margin: auto;
+  background: #121212;
+}
+
+.wrap-components {
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  width: 400px;
+  padding: 10px;
+  margin: 15px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+}
+
+.artists-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 1000px;
+}
+
+.artist-item {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 300px;
+  margin: 25px;
+  padding: 25px 25px 0px 25px;
+  border-radius: 10px;
+  background: #181818;
+}
+
+.artist-item:hover {
+  background: #282828;
+}
+
+.artist-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.songs-list {
+  width: 350px;
+}
+
+.song-item {
+  color: white;
+  background: #181818;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 15px 10px;
+  padding: 5px 10px;
+  border-radius: 13px;
+}
+
+.song-item:hover {
+  background: #282828;
+}
+
+.song-item img {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.text-danger {
+  color: rgb(117, 117, 0);
+}
